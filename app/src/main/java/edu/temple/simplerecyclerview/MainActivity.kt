@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         // TODO (Step 2: Define lambda to modify displayTextView size)
         val callback = {item: Int ->
-            displayTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, numbers[item].toFloat())
+            displayTextView.setTextSize(TypedValue.COMPLEX_UNIT_SP, item.toFloat())
         }
 
         // Todo (Step 3: Pass lambda to adapter)
